@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Show do Milhao</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="Inicial"> 
+        <h1>Bem Vindo(a) ao Show do Milhão Trivia</h1>
+        <input type="text" id="nome" placeholder="Por favor digite o seu nome"><br><br>
+        <input type="button" id="jogar" value="Jogar" onclick="Jogar()"><br><br>
+    </section>
+    <section id="Fase1">
+        <h1 id="Ola"></h1>
+        <input type="button" id="CategoriaA" value="Categoria Paises" onclick="categoriaPaises()"/>
+        <input type="button" id="CategoriaB" value="Categoria Harry Potter" onclick="categoriaHP()"/>
+    </section>
+    <section id="PerguntascorretasSection">
+        <h3>Perguntas Corretas</h3>
+        <div id="Perguntascorretas">
+        </div>
+    </section>
+    <section id="PerguntasincorretasSection">
+        <h3>Perguntas Incorretas</h3>
+        <div id="Perguntasincorretas">
+        </div>
+    </section>
+    <section id="jogarNovamente">
+        <input type="button" value="Jogar Novamente" id="jogarDNovo" onclick="Jogar()"/>
+    </section>
+    <!--<script type="text/javascript" src="app.js">-->
+    <script type= "text/javascript" src="script.js"></script>
+        
+</body>
+</html>

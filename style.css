@@ -1,0 +1,67 @@
+#Fase1{
+    display: none;
+    text-align: center;
+    color: white;
+}
+
+#PerguntascorretasSection{
+    background-color: green;
+    display: none;
+    color: white;
+}
+#PerguntasincorretasSection{
+    background-color: red;
+    display: none;
+    color: white;
+}
+#nome{
+    width: 400px;
+    height: 20px;
+    border-radius:  1px 1px 1px;
+    text-align: center;
+}
+#jogar{
+    width: 150px;
+    height: 40px;
+    background-color:  rgb(223, 223, 223);
+    border-radius: 10px 10px;
+}
+
+#CategoriaA{
+    width: 150px;
+    height: 40px;
+    background-color:  rgb(223, 223, 223);
+    border-radius: 10px 10px;
+}
+
+#CategoriaB {
+    width: 150px;
+    height: 40px;
+    background-color:  rgb(223, 223, 223);
+    border-radius: 10px 10px;
+}
+#jogar:hover {
+    background-color:  rgb(182, 179, 179);
+    cursor: pointer;
+
+}
+
+#jogarDNovo {
+    width: 150px;
+    height: 40px;
+    background-color:  rgb(223, 223, 223);
+    border-radius: 10px 10px;
+}
+#jogarNovamente {
+    display: none;
+    text-align: center;
+}
+
+#Inicial{
+    text-align: center;
+    color: white;
+    text-shadow: 2px 2px black;
+}
+body {
+    background-color: salmon;
+}
